@@ -67,12 +67,7 @@ namespace Ганиев41
             TBcount.Text = currentProducts.Count.ToString();
 
         }
-        int CountRecords;
-        int CountPage;
-        int CurrentPage;
 
-        List<Product> CurrentPageList = new List <Product>();
-        List<Product> TableList;
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
